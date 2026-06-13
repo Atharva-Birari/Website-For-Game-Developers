@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevForge | Game Dev Portal & Trend Tracker</title>
+  <meta name="description" content="A premium, lightweight game developer tracking portal for trends, game jams, and Unity tutorials designed for beginner developers and engineering students.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-6h2v6zm0-8h-2V7h2v1z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="logo-text">DevForge</span>
+          <span class="logo-tag">Unity Track</span>
+        </div>
+      </a>
+      
+      <nav class="tabs-nav" aria-label="Main Navigation">
+        <button class="tab-btn active" data-tab="trends">
+          <svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
+          Trends Tracker
+        </button>
+        <button class="tab-btn" data-tab="jams">
+          <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H5v-2h7v2zm4-4H5v-2h11v2zm0-4H5V7h11v2z"/></svg>
+          Game Jams & Hackathons
+        </button>
+        <button class="tab-btn" data-tab="tutorials">
+          <svg viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.49 12.07L12 15.6l6.51-3.53c.27-.15.49-.37.64-.63L12 15.02l-7.15-3.58c.15.26.37.48.64.63z"/></svg>
+          Unity Roadmap
+        </button>
+        <button class="tab-btn" data-tab="planner">
+          <svg viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          Scope Planner
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero container">
+    <h1>Accelerate Your Game Dev Journey</h1>
+    <p>A lightweight hub mapping viral gaming trends, curated beginner jams, step-by-step Unity paths, and interactive scope tools for engineering students.</p>
+    
+    <div class="user-status-card">
+      <div class="user-status-dot"></div>
+      <span class="user-status-text">
+        Welcome Back, Developer! Profile: <span class="user-status-highlight">Unity Beginner (1 Horror Game Published)</span> | Engineering Year: <span class="user-status-highlight">1st Year</span>
+      </span>
+    </div>
+  </section>
+
+  <!-- Main Tabs Content -->
+  <main class="container">
+    
+    <!-- Tab 1: Trends Tracker -->
+    <div class="tab-panel active" id="trends-tab">
+      <div class="grid-trends">
+        
+        <!-- Gaming Trends List -->
+        <section class="card">
+          <div class="trending-header">
+            <h2 class="section-title">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+              Current Viral Game Trends
+            </h2>
+            <span class="update-badge">Updated: June 2026</span>
+          </div>
+          
+          <div class="trend-card-list">
+            
+            <!-- Trend 1 -->
+            <div class="trend-item">
+              <div class="trend-rank">01</div>
+              <div class="trend-info">
+                <div class="trend-title-container">
+                  <h3 class="trend-title">Co-Op Horror with Proximity Voice Chat</h3>
+                  <span class="trend-metric">Extreme Hype</span>
+                </div>
+                <div class="trend-meta">
+                  <span class="badge badge-purple">Genre: Horror / Social</span>
+                  <span class="badge badge-cyan">Complexity: Medium</span>
+                </div>
+                <p class="trend-desc">Games like <em>Lethal Company</em> and <em>Content Warning</em> are dominating. Players enter atmospheric, retro-styled environments to gather loot, run from scary monsters, and experience funny voice communication moments.</p>
+                <div class="trend-action-box">
+                  <div class="trend-action-title">How to Capitalize as a Beginner</div>
+                  <p class="trend-action-text">Since you already published a horror game, build on it! Create a local single-player or simple atmospheric escape horror game. Focus on 3D spatial audio, dark lighting, and a retro/pixelated visual aesthetic to save asset-making time.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Trend 2 -->
+            <div class="trend-item">
+              <div class="trend-rank">02</div>
+              <div class="trend-info">
+                <div class="trend-title-container">
+                  <h3 class="trend-title">Liminal Space & Backrooms Explorations</h3>
+                  <span class="trend-metric">High Virality</span>
+                </div>
+                <div class="trend-meta">
+                  <span class="badge badge-purple">Genre: Walking Simulator / Atmospheric</span>
+                  <span class="badge badge-cyan">Complexity: Low</span>
+                </div>
+                <p class="trend-desc">Uncanny, empty spaces with fluorescent lights and repeating patterns. Gamers love these because they rely heavily on tension, sound design, and VHS camera effects rather than complicated scripting or heavy action systems.</p>
+                <div class="trend-action-box">
+                  <div class="trend-action-title">How to Capitalize as a Beginner</div>
+                  <p class="trend-action-text">This is perfect for Unity. You only need modular corridor assets, yellow wall textures, fluorescent hum audio, and post-processing (Vignette, Film Grain, chromatic aberration) to get that signature camera style.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Trend 3 -->
+            <div class="trend-item">
+              <div class="trend-rank">03</div>
+              <div class="trend-info">
+                <div class="trend-title-container">
+                  <h3 class="trend-title">Short, Funny Physics Sandbox Games</h3>
+                  <span class="trend-metric">Steady Stream</span>
+                </div>
+                <div class="trend-meta">
+                  <span class="badge badge-purple">Genre: Physics / Comedy</span>
+                  <span class="badge badge-cyan">Complexity: Low-Medium</span>
+                </div>
+                <p class="trend-desc">Clumsy controls, chaotic Ragdoll physics, and funny objectives. Gamers play these because they create funny fail moments that are extremely clip-able on short-form platforms (TikTok, YouTube Shorts).</p>
+                <div class="trend-action-box">
+                  <div class="trend-action-title">How to Capitalize as a Beginner</div>
+                  <p class="trend-action-text">Leverage Unity's built-in 3D Physics engine. Build simple levels around a single silly mechanic (e.g., throwing sticky objects, controlling a character with flopping joints) and let the physics engine create the fun.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        
+        <!-- YouTube Trends Sidebar -->
+        <div class="sidebar-section">
+          <section class="card">
+            <h2 class="section-title" style="margin-bottom: 1.25rem;">
+              <svg viewBox="0 0 24 24"><path d="M23 12c0 6.07-4.93 11-11 11S1 18.07 1 12 5.93 1 12 1s11 4.93 11 11zm-4.7-3.8c-.2-.7-.7-1.2-1.4-1.4C15.7 6.5 12 6.5 12 6.5s-3.7 0-4.9.3c-.7.2-1.2.7-1.4 1.4C5.4 9.4 5.4 12 5.4 12s0 2.6.3 3.8c.2.7.7 1.2 1.4 1.4 1.2.3 4.9.3 4.9.3s3.7 0 4.9-.3c.7-.2 1.2-.7 1.4-1.4.3-1.2.3-3.8.3-3.8s0-2.6-.3-3.8zM9.5 14.5V9.5l4.5 2.5-4.5 2.5z"/></svg>
+              YouTube Creator Trends
+            </h2>
+            
+            <div class="youtube-card-item">
+              <div class="yt-icon-play">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+              <div>
+                <h4 class="yt-item-title">Game Devlogs (Journey Videos)</h4>
+                <p class="yt-item-desc">Audiences love watching the developer's journey. Talking about how you failed, showing funny physics bugs, and detailing your process.</p>
+                <span class="yt-item-badge">Highly Recommended</span>
+              </div>
+            </div>
+            
+            <div class="youtube-card-item">
+              <div class="yt-icon-play">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+              <div>
+                <h4 class="yt-item-title">"I Made a Game in X Hours / Days"</h4>
+                <p class="yt-item-desc">A highly popular format. Challenges create built-in stakes. Making a horror game in 48 hours is perfect content.</p>
+                <span class="yt-item-badge">High Engagement</span>
+              </div>
+            </div>
+            
+            <div class="youtube-card-item">
+              <div class="yt-icon-play">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+              <div>
+                <h4 class="yt-item-title">Horror Game Playthrough Reactions</h4>
+                <p class="yt-item-desc">Streamers look for short, intense horror games. Keeping your game under 15 minutes but filled with good scares and atmospheric environments maximizes playthrough potential.</p>
+                <span class="yt-item-badge">Direct Installs</span>
+              </div>
+            </div>
+          </section>
+
+          <!-- Engineering Integration Info -->
+          <section class="card" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(0, 240, 255, 0.05)); border-color: rgba(139, 92, 246, 0.2);">
+            <h3 style="color: #fff; margin-bottom: 0.75rem; font-size: 1.15rem;">Engineering + Game Dev</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+              Entering your first year of engineering is a huge asset. Your courses in math, logic, and programming directly translate to clean code.
+            </p>
+            <ul style="font-size: 0.8rem; color: var(--text-secondary); padding-left: 1rem; display: flex; flex-direction: column; gap: 0.4rem;">
+              <li><strong>Version Control (Git):</strong> Learn Git early. It prevents project loss and is a core industry tool.</li>
+              <li><strong>Object-Oriented Coding:</strong> C# in Unity is excellent practice for your programming courses.</li>
+              <li><strong>Vector Math:</strong> Trigonometry and matrices will make coordinate transformations easy.</li>
+            </ul>
+          </section>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Tab 2: Game Jams & Hackathons -->
+    <div class="tab-panel" id="jams-tab">
+      <div class="jams-controls">
+        <div class="search-input-wrapper">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          <input type="text" id="jam-search" class="search-input" placeholder="Search jams (e.g., Brackeys, horror)...">
+        </div>
+        
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All Jams</button>
+          <button class="filter-btn" data-filter="beginner">Beginner Friendly</button>
+          <button class="filter-btn" data-filter="horror">Horror Jams</button>
+          <button class="filter-btn" data-filter="hackathon">Hackathons</button>
+        </div>
+      </div>
+
+      <!-- Jams Cards Grid -->
+      <div class="grid-jams" id="jams-grid">
+        <!-- Will be dynamically generated, fallbacks provided here -->
+      </div>
+
+      <!-- Game Jam Strategy Info -->
+      <div class="info-box">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v1z"/></svg>
+        </div>
+        <div>
+          <h3 class="info-title">Beginner Jam Strategy (How to Survive & Win)</h3>
+          <p class="info-text">As a beginner engineering student, your goal is to finish and submit a working build. Follow these rules:</p>
+          <ul class="info-text info-list">
+            <li><strong>Design around the Theme:</strong> Voters judge heavily on how well you implement the jam's constraint. Keep it simple and creative.</li>
+            <li><strong>Scale Down:</strong> Take whatever game idea you have, cut 70% of it, and build the remaining 30%. You only need one solid mechanic.</li>
+            <li><strong>Test Early:</strong> Build an executable on day one. Make sure it runs. Unity builds can sometimes fail or compile with errors; don't leave compiling to the last 2 hours.</li>
+            <li><strong>Web Builds:</strong> If possible, upload a WebGL version to itch.io. People are 10x more likely to play and rate your game if they don't have to download an installer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Unity Tutorials & Roadmaps -->
+    <div class="tab-panel" id="tutorials-tab">
+      <div class="roadmap-grid">
+        
+        <!-- Roadmap Steps Selector -->
+        <aside class="roadmap-sidebar">
+          <button class="roadmap-step-btn active" data-roadmap="lvl1">
+            <div class="roadmap-step-num">Step 1</div>
+            <div class="roadmap-step-title">Foundations & C#</div>
+          </button>
+          <button class="roadmap-step-btn" data-roadmap="lvl2">
+            <div class="roadmap-step-num">Step 2</div>
+            <div class="roadmap-step-title">Game loop & Architecture</div>
+          </button>
+          <button class="roadmap-step-btn" data-roadmap="lvl3">
+            <div class="roadmap-step-num">Step 3</div>
+            <div class="roadmap-step-title">Horror Dev Booster</div>
+          </button>
+        </aside>
+
+        <!-- Roadmap Content Panels -->
+        <div class="roadmap-content-box">
+          
+          <!-- Roadmap Step 1: Foundations -->
+          <div class="roadmap-panel active" id="lvl1-panel">
+            <h2 style="color: #fff; margin-bottom: 0.5rem;">Step 1: Core Unity & C# Foundations</h2>
+            <p class="roadmap-desc">Start here to master clean editor habits, understanding Unity's lifecycle events (Start, Update, FixedUpdate), Rigidbody physics, and scripting inputs.</p>
+            
+            <div class="tutorial-cards-grid">
+              
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">C# Programming</span>
+                  <h4 class="tut-title">C# for Beginners - Core Scripting</h4>
+                  <div class="tut-channel">Brackeys</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=IlKaB1etrik" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Unity 2D/3D Basics</span>
+                  <h4 class="tut-title">How to Make a Game - Setup & Movement</h4>
+                  <div class="tut-channel">Brackeys</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=j48LtUkZRjU" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Input System</span>
+                  <h4 class="tut-title">Unity's New Input System Made Easy</h4>
+                  <div class="tut-channel">Code Monkey</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=YjeXOJ2e7sI" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          
+          <!-- Roadmap Step 2: Game Loop -->
+          <div class="roadmap-panel" id="lvl2-panel">
+            <h2 style="color: #fff; margin-bottom: 0.5rem;">Step 2: Architecture & Polished Game Loops</h2>
+            <p class="roadmap-desc">Learn how to organize your scripts using design patterns, build clean main menus, transition between levels, and implement basic UI frameworks.</p>
+            
+            <div class="tutorial-cards-grid">
+              
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Coding Patterns</span>
+                  <h4 class="tut-title">Singletons, Events, and Clean Architecture</h4>
+                  <div class="tut-channel">Tarodev</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=hG3Gz12dG_k" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">UI & Menus</span>
+                  <h4 class="tut-title">How to Build a Clean Game Menu & Settings</h4>
+                  <div class="tut-channel">Brackeys</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=zc8ac_qUXQY" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Game State Managers</span>
+                  <h4 class="tut-title">Building a Game Manager to Control State</h4>
+                  <div class="tut-channel">Code Monkey</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=34lS4U57z9I" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Roadmap Step 3: Horror Dev Booster -->
+          <div class="roadmap-panel" id="lvl3-panel">
+            <h2 style="color: #fff; margin-bottom: 0.5rem;">Step 3: Horror Developer Booster Pack</h2>
+            <p class="roadmap-desc">Specifically put together for you to build on your horror game foundations. Learn how to write flashlight code, design raycast-based interactable objects, make jump scares, and program terrifying chase AI.</p>
+            
+            <div class="tutorial-cards-grid">
+              
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Atmosphere & Lighting</span>
+                  <h4 class="tut-title">Cinematic Lighting & Post-Processing Setup</h4>
+                  <div class="tut-channel">Sebastian Lague</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=T_8Nle6fL0k" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Chase AI & Navigation</span>
+                  <h4 class="tut-title">AI Enemy Pathfinding (NavMesh) Chase Logic</h4>
+                  <div class="tut-channel">Code Monkey</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=atCOd4A7t4A" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+              <div class="tutorial-card">
+                <div>
+                  <span class="tut-type-badge">Player Interaction</span>
+                  <h4 class="tut-title">Horror Raycast Flashlight & Battery Scripting</h4>
+                  <div class="tut-channel">Tarodev</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=gYL4iVlU0yU" target="_blank" class="tut-link-btn">
+                  Watch Tutorial
+                  <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 4: Scope Planner -->
+    <div class="tab-panel" id="planner-tab">
+      <div class="card scope-tool-container">
+        
+        <!-- Controls & Sliders -->
+        <div class="scope-form-box">
+          <h2 style="color: #fff;">Jam Scope Planner</h2>
+          <p class="scope-intro">Overscoping is the #1 reason game jam projects fail. Use this simulator to check if your planned mechanics fit within your target jam window.</p>
+          
+          <!-- Jam duration selector -->
+          <div>
+            <label class="range-label" style="display: block; margin-bottom: 0.5rem;">Target Jam Duration</label>
+            <div class="jam-type-selector">
+              <button class="jam-type-btn active" data-duration="48">48 Hours (Weekend)</button>
+              <button class="jam-type-btn" data-duration="72">72 Hours (Ludum Dare)</button>
+              <button class="jam-type-btn" data-duration="168">168 Hours (1 Week)</button>
+            </div>
+          </div>
+          
+          <!-- Slider 1: Mechanics -->
+          <div class="form-group-range">
+            <div class="range-header">
+              <span class="range-label">Gameplay Mechanics</span>
+              <span class="range-value" id="val-mechanics">1</span>
+            </div>
+            <input type="range" class="slider-input" id="slide-mechanics" min="1" max="5" value="1">
+            <span class="range-subtext" id="subtext-mechanics">Simple movement and look controller.</span>
+          </div>
+
+          <!-- Slider 2: Level Design -->
+          <div class="form-group-range">
+            <div class="range-header">
+              <span class="range-label">Levels / Rooms / Stages</span>
+              <span class="range-value" id="val-levels">1</span>
+            </div>
+            <input type="range" class="slider-input purple" id="slide-levels" min="1" max="10" value="1">
+            <span class="range-subtext" id="subtext-levels">A single small level or compact horror corridor.</span>
+          </div>
+
+          <!-- Slider 3: Art & Assets -->
+          <div class="form-group-range">
+            <div class="range-header">
+              <span class="range-label">Art & Visual Complexity</span>
+              <span class="range-value" id="val-art">1</span>
+            </div>
+            <input type="range" class="slider-input" id="slide-art" min="1" max="5" value="1">
+            <span class="range-subtext" id="subtext-art">Purely free asset packs, basic materials, minimal custom geometry.</span>
+          </div>
+
+          <!-- Slider 4: Sound Design -->
+          <div class="form-group-range">
+            <div class="range-header">
+              <span class="range-label">Audio & SFX Scope</span>
+              <span class="range-value" id="val-sound">1</span>
+            </div>
+            <input type="range" class="slider-input purple" id="slide-sound" min="1" max="5" value="1">
+            <span class="range-subtext" id="subtext-sound">Only basic footsteps sound effect and a single background track.</span>
+          </div>
+
+        </div>
+        
+        <!-- Results Gauge Sidebar -->
+        <div class="scope-results-box">
+          <div class="results-header">
+            <h3 class="results-title">Scoping Analysis</h3>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Real-time estimation based on beginner dev speeds</span>
+          </div>
+          
+          <div class="hours-display">
+            <div class="hours-number" id="total-hours">6</div>
+            <div class="hours-total-label">Est. Dev Hours Needed</div>
+          </div>
+          
+          <div>
+            <div class="gauge-container">
+              <div class="gauge-bar" id="gauge-fill"></div>
+            </div>
+            <div class="gauge-markers">
+              <span>0h</span>
+              <span id="marker-mid">16h</span>
+              <span id="marker-max">32h max</span>
+            </div>
+          </div>
+          
+          <!-- Dynamic Alert Status Box -->
+          <div class="gauge-status-alert safe" id="status-alert">
+            <strong>Safe Scope:</strong> You have plenty of safety margins for bugs, build failures, and sleep. Proceed with confidence!
+          </div>
+
+          <!-- Breakdown list -->
+          <div class="scope-breakdown">
+            <h4 style="font-size: 0.8rem; color: #fff; text-transform: uppercase; letter-spacing: 0.05rem;">Estimated Breakdown</h4>
+            
+            <div class="breakdown-row">
+              <span><span class="breakdown-dot code"></span>Coding & Mechanics</span>
+              <span class="breakdown-val" id="breakdown-code">2.0 hrs</span>
+            </div>
+            <div class="breakdown-row">
+              <span><span class="breakdown-dot design"></span>Level Setup</span>
+              <span class="breakdown-val" id="breakdown-design">1.5 hrs</span>
+            </div>
+            <div class="breakdown-row">
+              <span><span class="breakdown-dot art"></span>Visual Implementation</span>
+              <span class="breakdown-val" id="breakdown-art">1.5 hrs</span>
+            </div>
+            <div class="breakdown-row">
+              <span><span class="breakdown-dot sound"></span>Audio & Atmosphere</span>
+              <span class="breakdown-val" id="breakdown-sound">1.0 hrs</span>
+            </div>
+          </div>
+
+          <p style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.3;">
+            *Estimates include assembly in Unity Editor, debugging basic console errors, compiling builds, and publishing. Assumes 8 hours of sleep per night.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">DevForge</div>
+      <p>Helping game developers build, ship, and scale their creations. Created for engineering student game developers.</p>
+      <p style="margin-top: 1rem; opacity: 0.5;">&copy; 2026 DevForge Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

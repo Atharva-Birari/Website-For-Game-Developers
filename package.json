@@ -1,0 +1,17 @@
+{
+  "name": "devforge-portal",
+  "version": "1.0.0",
+  "description": "Game Developer Tracking Portal & Trend Tracker",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve ."
+  },
+  "keywords": [
+    "gamedev",
+    "portal",
+    "trends",
+    "unity"
+  ],
+  "author": "",
+  "license": "ISC"
+}
