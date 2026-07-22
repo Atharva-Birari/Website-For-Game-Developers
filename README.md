@@ -1,2 +1,2 @@
 # Website-For-Game-Developers
-DevForge is a web platform designed to help aspiring game developers learn, plan, and build better games. It brings together trending game ideas, curated game jams, a structured Unity learning roadmap, and project scope planning tools into one streamlined experience for beginners and students.
+DevForge is a personal web project created to explore UI design and front-end development while building tools for aspiring game developers. The platform brings together game development trends, Unity learning resources, game jam listings, and project planning concepts. This project serves as part of my learning journey alongside my primary focus on Unity game development and C++.
