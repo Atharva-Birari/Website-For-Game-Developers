@@ -1,2 +1,3 @@
-# Website-For-Game-Developers
+# DevForge
+### A Personal Hub for Game Developers
 DevForge is a personal web project created to explore UI design and front-end development while building tools for aspiring game developers. The platform brings together game development trends, Unity learning resources, game jam listings, and project planning concepts. This project serves as part of my learning journey alongside my primary focus on Unity game development and C++.
